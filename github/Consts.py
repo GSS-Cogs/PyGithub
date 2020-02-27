@@ -117,3 +117,6 @@ updateBranchPreview = "application/vnd.github.lydian-preview+json"
 
 # https://developer.github.com/changes/2016-05-23-timeline-preview-api/
 issueTimelineEventsPreview = "application/vnd.github.mockingbird-preview"
+
+# https://developer.github.com/changes/2018-09-05-project-card-events/
+issueTimelineEventsProjectCardPreview = "application/vnd.github.starfox-preview"

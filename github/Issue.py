@@ -604,7 +604,7 @@ class Issue(github.GithubObject.CompletableGithubObject):
             self._requester,
             self.url + "/timeline",
             None,
-            headers={"Accept": Consts.issueTimelineEventsPreview},
+            headers={"Accept": Consts.issueTimelineEventsProjectCardPreview + ', ' + Consts.issueTimelineEventsPreview},
         )
 
     @property
